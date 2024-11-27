@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeuralVizVR | Immersive Visualization and AI-Assisted Analysis of Neural Networks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Roboto:300,400" rel="stylesheet">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <video autoplay muted loop id="hero-video">
+      <source src="videos/hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>NeuralVizVR</h1>
+      <p>Immersive 3D Visualization and AI-Assisted Analysis of Neural Networks</p>
+      <a href="#features" class="cta-button">Explore Now</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <img src="images/multimodal-access.png" alt="Multi-Modal Access">
+        <h3>Multi-Modal Access</h3>
+        <p>Available on VR, desktop, and web platforms for accessibility across devices.</p>
+      </div>
+      <div class="card">
+        <img src="images/immersive-visualization.png" alt="Immersive Visualization">
+        <h3>Immersive Visualization</h3>
+        <p>Explore neural network layers, activations, and data flow in a 3D environment.</p>
+      </div>
+      <div class="card">
+        <img src="images/interactive-construction.png" alt="Interactive Neural Network Construction">
+        <h3>Interactive Construction</h3>
+        <p>Construct, modify, and analyze neural networks in real time through intuitive 3D interactions.</p>
+      </div>
+      <div class="card">
+        <img src="images/interpretability-tools.png" alt="Interpretability Tools">
+        <h3>Interpretability Tools</h3>
+        <p>Gain insights into feature influences on predictions with integrated tools.</p>
+      </div>
+      <div class="card">
+        <img src="images/robustness-analysis.png" alt="Robustness Analysis">
+        <h3>Robustness Analysis</h3>
+        <p>Test model resilience to various attack types within the immersive environment.</p>
+      </div>
+      <div class="card">
+        <img src="images/ai-assistant.png" alt="AI-Assisted Analysis">
+        <h3>AI-Assisted Analysis</h3>
+        <p>Receive real-time explanations and guidance from integrated LLM-based AI assistance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots/Video Demo Section -->
+  <section class="media">
+    <h2>See NeuralVizVR in Action</h2>
+    <div class="media-gallery">
+      <img src="images/scr1.png" alt="Layer Creator">
+      <img src="images/scr2.png" alt="Network Visualization">
+      <img src="images/scr3.png" alt="Interactive Analysis">
+      <img src="images/scr4.png" alt="Robustness Testing">
+      <img src="images/NeuralVizVR-screenshot1.png" alt="3D Environment">
+      <video controls>
+        <source src="videos/demo-video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About NeuralVizVR</h2>
+    <p>
+        NeuralVizVR is an innovative, open-source platform developed at Maynooth University, funded by the SFI Frontiers for the Future Program (MAIVV, 2022–2025). Our mission is to improve neural network interpretability and analysis by leveraging immersive 3D visualization, interactive exploration, and advanced AI-assisted techniques, making complex models more accessible and understandable to a wide range of users.
+    </p>
+    <h3>Central Research Question</h3>
+    <ul>
+      How can immersive 3D visualization, interaction, and AI-assisted analysis enhance the interpretability, accessibility, and validation of neural networks across diverse modalities and applications?
+    </ul>
+    <h3>Objectives</h3>
+    <ul>
+      <li><strong>Develop a Multi-Modal Platform:</strong> Create a platform accessible via web, desktop, and VR modes, ensuring usability across expertise levels and hardware configurations.</li>
+      <li><strong>Enhance Visualization and Interaction:</strong> Provide tools for constructing, modifying, and analyzing neural networks as 3D representations, enabling real-time interaction and experimentation.</li>
+      <li><strong>Integrate Formal Verification Methods:</strong> Validate model robustness, reliability, and adherence to criteria through formal verification methods.</li>
+      <li><strong>Integrate AI Assistance:</strong> Enhance LLM capabilities for advanced model interpretation, personalized guidance, and intuitive support across expertise levels.</li>
+      <li><strong>Develop Autonomous Systems Simulation:</strong> Introduce a virtual autonomous vehicle simulation for real-world-inspired scenarios for data collection, model training, and testing.</li>
+    </ul>
+    <div class="team">
+      <div class="team-member">
+        <img src="images/medet-inkarbekov.png" alt="Medet Inkarbekov">
+        <h3>Medet Inkarbekov</h3>
+        <p>Postdoctoral Researcher</p>
+      </div>
+      <div class="team-member">
+        <img src="images/barak-pearlmutter.png" alt="Barak A. Pearlmutter">
+        <h3>Barak A. Pearlmutter</h3>
+        <p>Professor</p>
+      </div>
+      <div class="team-member">
+        <img src="images/rosemary-monahan.png" alt="Rosemary Monahan">
+        <h3>Rosemary Monahan</h3>
+        <p>Professor</p>
+      </div>
+    </div>
+    <div class="logos">
+      <img src="images/MU-logo.png" alt="Maynooth University">
+      <img src="images/sfi-logo.png" alt="Science Foundation Ireland">
+    </div>
+  </section>
+
+  <!-- Current Progress Section -->
+  <section id="current-progress" class="current-progress">
+    <h2>Current Progress</h2>
+    <p>
+      Our existing platform enables users to visualize and analyze neural networks in an immersive 3D environment, accessible in both VR and desktop modes. Key features include:
+    </p>
+    <ul>
+      <li><strong>Visualization:</strong> Immersive exploration of neural network layers, activations, and data flow in 3D.</li>
+      <li><strong>Interaction:</strong> Construct, modify, and analyze networks in real time through intuitive 3D interactions.</li>
+      <li><strong>Interpretability Tools:</strong> Provide insights into feature influences on predictions.</li>
+      <li><strong>Robustness Analysis:</strong> Test model resilience to various attack types.</li>
+      <li><strong>LLM-based AI Assistance:</strong> Offers basic real-time explanations and guidance for interpreting simple inputs.</li>
+    </ul>
+
+    <h2>Future Plans</h2>
+    <p>
+      Building on the current platform, we aim to extend NeuralVizVR's capabilities to further enhance its functionality, accessibility, and user experience. Planned developments include:
+    </p>
+    <ul>
+      <li><strong>Multi-Modal Platform:</strong> Expand accessibility by developing web and desktop-compatible versions alongside VR, with enhanced options for customization.</li>
+      <li><strong>Formal Verification Integration:</strong> Incorporate formal verification methods to ensure model safety, reliability, and compliance with defined criteria.</li>
+      <li><strong>Enhanced AI Assistance:</strong> Advance LLM integration to provide deeper model interpretations, personalized guidance, and richer user interactions.</li>
+      <li><strong>Autonomous Systems Simulation:</strong> Introduce a virtual autonomous vehicle simulation environment for realistic data collection, model training, and testing in dynamic scenarios.</li>
+      <li><strong>Comprehensive Evaluation:</strong> Conduct iterative usability assessments to evaluate cognitive load, user satisfaction, and overall platform effectiveness across diverse participants.</li>
+    </ul>
+  </section>
+
+
+  <!-- Call-to-Action Section -->
+  <section class="call-to-action">
+    <h2>Join the NeuralVizVR Community</h2>
+    <p>Ready to transform your AI visualization experience? Join us.</p>
+    <div class="cta-buttons">
+      <a href="https://github.com/yourusername/NeuralVizVR" class="cta-button">Download Now</a>
+      <a href="https://github.com/yourusername/NeuralVizVR" class="cta-button">Contribute on GitHub</a>
+      <a href="#contact" class="cta-button">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="mailto:medet.inkarbekov@mu.ie">medet.inkarbekov@mu.ie</a></p>
+        <p>Email: <a href="mailto:barak@pearlmutter.net">barak@pearlmutter.net</a></p>
+        <p>Email: <a href="mailto:rosemary.monahan@mu.ie">rosemary.monahan@mu.ie</a></p>
+      </div>
+      <div class="acknowledgments">
+        <h3>Acknowledgments</h3>
+        <p>Supported by Science Foundation Ireland (SFI) and Maynooth University.</p>
+      </div>
+    </div>
+    <p class="footer-note">© 2024 NeuralVizVR. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
